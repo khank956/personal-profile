@@ -20,10 +20,10 @@ export default function ProfilePage() {
   ]
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "quoc.khanh@example.com", href: "mailto:quoc.khanh@example.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA", href: "#" },
-    { icon: Github, label: "GitHub", value: "github.com/quockhanh", href: "https://github.com/quockhanh" },
+    { icon: Mail, label: "Email", value: "quoc.khanh@example.com", href: "mailto:2000004701@nttu.edu.vn"},
+    { icon: Phone, label: "Phone", value: "0937390710", href: "#" },
+    { icon: MapPin, label: "Location", value: "VIET NAM", href: "#" },
+    { icon: Github, label: "GitHub", value: "https://github.com/khank956", href:"https://github.com/khank956"},
     {
       icon: Linkedin,
       label: "LinkedIn",
@@ -40,7 +40,7 @@ export default function ProfilePage() {
         <div className="text-center mb-12">
           <div className="relative w-32 h-32 mx-auto mb-6">
             <Image
-              src="/placeholder.svg?height=128&width=128"
+              src="/download.jpg"
               alt="Quoc Khanh Profile Picture"
               width={128}
               height={128}
@@ -57,19 +57,16 @@ export default function ProfilePage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">About Me</h2>
             <div className="prose prose-gray max-w-none">
               <p className="text-gray-700 leading-relaxed mb-4">
-                I'm a passionate full stack developer with over 5 years of experience building scalable web applications
-                and digital solutions. I specialize in modern JavaScript frameworks and have a strong background in both
-                frontend and backend development.
+                I'm a passionate full stack developer and an Information Technology student with 1 year of hands-on experience in building web applications and digital solutions.
+                 I specialize in modern JavaScript frameworks and am continuously developing my skills in both frontend and backend development.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                My journey in tech started with a curiosity for problem-solving and has evolved into a career focused on
-                creating user-centric applications that make a real impact. I enjoy working in collaborative
-                environments and am always eager to learn new technologies and methodologies.
+                My journey in tech started from a love of problem-solving and has grown into a passion for creating user-friendly and impactful applications.
+                 I enjoy learning by doing, working in collaborative teams, and expanding my knowledge through real-world projects.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                When I'm not coding, you can find me exploring the outdoors, reading tech blogs, or contributing to
-                open-source projects. I believe in continuous learning and sharing knowledge with the developer
-                community.
+               When I'm not coding, I enjoy exploring new technologies, reading tech blogs, and occasionally contributing to small open-source projects.
+                I strongly believe in lifelong learning and in sharing knowledge within the developer community.
               </p>
             </div>
           </CardContent>
